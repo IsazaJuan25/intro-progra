@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Productos de Comida</title>
-    <!-- Esta actividad la hice distinta a como estaba establecida, ya que la quise hacer de manera propia -->
+    <title>Actividad HTML</title>
 </head>
+
 <body>
 
-    <h1>Productos de Comida</h1>
 
-    
-    <table border="1">
+    <h2>Mi Imagen Favorita</h2>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Paisaje" width="400" height="300">
+
+
+    <h2>Mi Video Favorito</h2>
+    <video controls width="640" height="360" poster="portada.jpg">
+        <source src="https://videos.pexels.com/video-files/857195/857195-hd_1280_720_25fps.mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+
+
+    <h2>Mi Canción Favorita</h2>
+    <audio controls>
+        <source src="c:\Users\ANDRES\Downloads\Somnia Variation 3 relax and sleep - Reed Mathis.mp3" type="audio/mpeg">
+
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!--Copiado desde la opcion de incorporar en youtube-->
+    <h2>Video de YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eXDU9um19HM?si=RXyEsfGGMB3HE4q5"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <h2>Tabla de Productos</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
         <thead>
             <tr>
-                <th colspan="4">Menú del Día</th>
-            </tr>
-            <tr>
-                <th>Producto</th>
-                <th>Descripción</th>
-                <th>Precio</th>
-                <th>Imagen</th>
+                <th colspan="2">Lista de Productos</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Hamburguesa</td>
-                <td>Hamburguesa de carne con queso, lechuga y tomate.</td>
-                <td>$10.000</td>
-                <td><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Hamburguesa" width="100"></td>
+                <td rowspan="2">Frutas</td>
+                <td>Manzana</td>
             </tr>
             <tr>
-                <td>Pizza</td>
-                <td>Pizza de pepperoni con extra queso.</td>
-                <td>$15.000</td>
-                <td><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pizza" width="100"></td>
+                <td>Naranja</td>
             </tr>
             <tr>
-                <td>Ensalada</td>
-                <td>Ensalada fresca con pollo a la parrilla.</td>
-                <td>$8.000</td>
-                <td><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Ensalada" width="100"></td>
+                <td>Verduras</td>
+                <td>Zanahoria</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3">Total</td>
-                <td>$33.000</td>
+                <td>Total</td>
+                <td>3 productos</td>
             </tr>
         </tfoot>
     </table>
 
-
-    <h2>Multimedia</h2>
-
-    <h3>Imagen de Comida</h3>
-    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Comida" width="400">
-
-    <h3>Video de Receta</h3>
-    <video controls width="400">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-    </video>
-
-    <h3>Audio de Ambiente</h3>
-    <audio controls>
-        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-
-    <h3>Mapa de Ubicación</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d-75.56170548573445!3d6.201505595501325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468280b4f4f8f5%3A0x1a1a1a1a1a1a1a1a!2sPlaza%20Mayor%20Medell%C3%ADn!5e0!3m2!1ses!2sco!4v1629999999999!5m2!1ses!2sco" width="600" height="450" allowfullscreen></iframe>
-
 </body>
+
 </html>
